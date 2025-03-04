@@ -555,7 +555,7 @@
 
                             <!-- Container -->
                             <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Container"
+                                   Content="Tartály"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="86"
@@ -596,7 +596,7 @@
 
                             <!-- MediaType -->
                             <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Media"
+                                   Content="Média"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="86"
@@ -621,7 +621,7 @@
 
                             <!-- Cut -->
                             <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Cut"
+                                   Content="Kivágás"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="86"
@@ -647,7 +647,7 @@
 
                             <!-- Cut Start -->
                             <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Start Time"
+                                   Content="Kezdő időpont"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="86"
@@ -681,7 +681,7 @@
                             <Label x:Name="lblCutStartHours"
                                    Style="{DynamicResource LabelCut}"
                                    IsEnabled="{Binding Format_CutStart_IsEnabled}"
-                                   Content=":"
+                                   Content="Videó és audió konvertálás."
                                    FontFamily="Segoe UI Semilight"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
@@ -719,7 +719,7 @@
                             <Label x:Name="lblCutStartMinutes"
                                    Style="{DynamicResource LabelCut}"
                                    IsEnabled="{Binding Format_CutStart_IsEnabled}"
-                                   Content=":"
+                                   Content="Videó és audió konvertálás."
                                    FontFamily="Segoe UI Semilight"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
@@ -757,7 +757,7 @@
                             <Label x:Name="lblCutStartSeconds"
                                    Style="{DynamicResource LabelCut}"
                                    IsEnabled="{Binding Format_CutStart_IsEnabled}"
-                                   Content="."
+                                   Content="Videó és audio konvertálás."
                                    FontFamily="Segoe UI Semilight"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
@@ -811,7 +811,7 @@
 
                             <!-- Cut End -->
                             <Label Style="{DynamicResource LabelStyle}"
-                                   Content="End Time"
+                                   Content="Végidő"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="86"
@@ -846,7 +846,7 @@
                             <Label x:Name="lblCutEndHours"
                                    Style="{DynamicResource LabelCut}"
                                    IsEnabled="{Binding Format_CutEnd_IsEnabled}"
-                                   Content=":"
+                                   Content="Videó és audió konvertálás."
                                    FontFamily="Segoe UI Semilight"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
@@ -883,7 +883,7 @@
                             <Label x:Name="lblCutEndMinutes"
                                    Style="{DynamicResource LabelCut}"
                                    IsEnabled="{Binding Format_CutEnd_IsEnabled}"
-                                   Content=":"
+                                   Content="Videó és audió konvertálás."
                                    FontFamily="Segoe UI Semilight"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
@@ -920,7 +920,7 @@
                             <Label x:Name="lblCutEndSeconds"
                                    Style="{DynamicResource LabelCut}"
                                    IsEnabled="{Binding Format_CutEnd_IsEnabled}"
-                                   Content="."
+                                   Content="Videó és audio konvertálás."
                                    FontFamily="Segoe UI Semilight"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
@@ -972,7 +972,7 @@
 
                             <!-- Frame Range -->
                             <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Frame Range"
+                                   Content="Képkockatartomány"
                                    HorizontalAlignment="Left"
                                    Margin="0,1,0,0"
                                    VerticalAlignment="Top"
@@ -1052,7 +1052,7 @@
 
                             <!-- YouTube Quality -->
                             <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Quality"
+                                   Content="Minőség"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="86"
@@ -1148,7 +1148,7 @@
 
                                             <!-- Video Codec -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Video Codec"
+                                                   Content="Videokodek"
                                                    HorizontalAlignment="Left"
                                                    Margin="0,0,0,0"
                                                    VerticalAlignment="Top"
@@ -1177,7 +1177,7 @@
 
                                             <!-- Encode Speed -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Encode Speed"
+                                                   Content="Kódolás sebessége"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    FontFamily="Segoe UI Semilight"
@@ -1243,7 +1243,7 @@
 
                                             <!-- HW Acceleration -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="HW Accel"
+                                                   Content="Hardveres gyorsítás"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    FontFamily="Segoe UI Semilight"
@@ -1274,7 +1274,7 @@
                                                       Margin="0,2,0,0" />
                                             <!-- HW Decode -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Decode"
+                                                   Content="Dekódol"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    FontFamily="Segoe UI Semilight"
@@ -1306,7 +1306,7 @@
                                                       Margin="0,2,0,0" />
                                             <!-- HW Transcode -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Transcode"
+                                                   Content="Átkódolás"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    FontFamily="Segoe UI Semilight"
@@ -1365,7 +1365,7 @@
 
                                             <!-- Video Quality -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Quality"
+                                                   Content="Minőség"
                                                    HorizontalAlignment="Left"
                                                    Width="56"
                                                    FontFamily="Segoe UI Semilight"
@@ -1404,7 +1404,7 @@
 
                                             <!-- Pass -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Pass"
+                                                   Content="Átmenet"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="56"
@@ -1436,7 +1436,7 @@
 
                                             <!-- CRF -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="CRF"
+                                                   Content="Állandó bitrátájú kódolás"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="56"
@@ -1490,7 +1490,7 @@
 
                                             <!-- Video Bit Rate-->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Bit Rate"
+                                                   Content="Bitrátá"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="56"
@@ -1527,7 +1527,7 @@
                                                           IsChecked="{Binding Video_VBR_IsChecked}"
                                                           IsEnabled="{Binding Video_VBR_IsEnabled, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                                           Style="{DynamicResource ToggleButtonSmall}"
-                                                          Content="VBR"
+                                                          Content="Változó bitrátájú"
                                                           HorizontalAlignment="Left"
                                                           Margin="75,1,0,0"
                                                           VerticalAlignment="Top"
@@ -1601,7 +1601,7 @@
 
                                                     <!-- Video Min Rate -->
                                                     <Label Style="{DynamicResource LabelStyle}"
-                                                            Content="Min Rate"
+                                                            Content="Minimális bitráta"
                                                             HorizontalAlignment="Left"
                                                             VerticalAlignment="Top"
                                                             Width="75"
@@ -1633,7 +1633,7 @@
 
                                                     <!-- Video Max Rate -->
                                                     <Label Style="{DynamicResource LabelStyle}"
-                                                           Content="Max Rate"
+                                                           Content="Maximális sebesség"
                                                            HorizontalAlignment="Left"
                                                            VerticalAlignment="Top"
                                                            Width="75"
@@ -1665,7 +1665,7 @@
 
                                                     <!-- Video Buf Size -->
                                                     <Label Style="{DynamicResource LabelStyle}"
-                                                           Content="Buf Size"
+                                                           Content="Pufferméret"
                                                            HorizontalAlignment="Left"
                                                            VerticalAlignment="Top"
                                                            Width="56"
@@ -1700,7 +1700,7 @@
 
                                             <!-- Pix Format -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Pixel Format"
+                                                   Content="Képpontformátum"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="80"
@@ -1728,7 +1728,7 @@
 
                                             <!-- Framerate -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Frame Rate"
+                                                   Content="Képkockasebesség"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="75"
@@ -1765,7 +1765,7 @@
 
                                             <!-- Speed -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Speed"
+                                                   Content="Sebesség"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="75"
@@ -1802,7 +1802,7 @@
 
                                             <!-- Vsync -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Vsync"
+                                                       Content="Vízszinkronizáció"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="85"
@@ -1864,7 +1864,7 @@
 
                                             <!-- Optimize -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Optimize"
+                                                   Content="Optimalizál"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="75"
@@ -1951,7 +1951,7 @@
 
                                                         <!-- Tune -->
                                                         <Label Style="{DynamicResource LabelStyle}"
-                                                               Content="Tune"
+                                                               Content="Hangolás"
                                                                HorizontalAlignment="Left"
                                                                VerticalAlignment="Top"
                                                                Width="75"
@@ -1974,7 +1974,7 @@
 
                                                         <!-- Profile -->
                                                         <Label Style="{DynamicResource LabelStyle}"
-                                                               Content="Profile"
+                                                               Content="Profil"
                                                                HorizontalAlignment="Left"
                                                                VerticalAlignment="Top"
                                                                Width="75"
@@ -1997,7 +1997,7 @@
 
                                                         <!-- Level -->
                                                         <Label Style="{DynamicResource LabelStyle}"
-                                                               Content="Level"
+                                                               Content="Szint"
                                                                HorizontalAlignment="Left"
                                                                VerticalAlignment="Top"
                                                                Width="75"
@@ -2068,7 +2068,7 @@
 
                                             <!-- Color Space -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Color Space"
+                                                   Content="Színhűség"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="95"
@@ -2079,7 +2079,7 @@
 
                                             <!-- Color Range -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Color Range"
+                                                   Content="Színhűség-tartomány"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    FontFamily="Segoe UI Semilight"
@@ -2109,7 +2109,7 @@
 
                                             <!-- Color Space -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Color Space"
+                                                   Content="Színhűség"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    FontFamily="Segoe UI Semilight"
@@ -2138,7 +2138,7 @@
 
                                             <!-- Color Primaries -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Color Primaries"
+                                                   Content="Színprimérek"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    FontFamily="Segoe UI Semilight"
@@ -2167,7 +2167,7 @@
 
                                             <!-- Transfer Characteristics -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Transfer Char"
+                                                   Content="Karakterátvitel"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    FontFamily="Segoe UI Semilight"
@@ -2196,7 +2196,7 @@
 
                                             <!-- Color Matrix -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Color Matrix"
+                                                   Content="Színhűségmátrix"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    FontFamily="Segoe UI Semilight"
@@ -2271,7 +2271,7 @@
 
                                             <!-- EQ -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="EQ"
+                                                   Content="Egyenlítő"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="95"
@@ -2282,7 +2282,7 @@
 
                                             <!-- Brightness -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Brightness"
+                                                   Content="Fényerő"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="85"
@@ -2323,7 +2323,7 @@
 
                                             <!-- Contrast -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Contrast"
+                                                   Content="Kontraszt"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="85"
@@ -2364,7 +2364,7 @@
 
                                             <!-- Saturation -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Saturation"
+                                                   Content="Telítettség"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="85"
@@ -2492,7 +2492,7 @@
 
                                             <!-- Selective Color -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Selective Color"
+                                                   Content="Szelektív színhasználat"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="95"
@@ -2503,7 +2503,7 @@
 
                                             <!-- Color -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Color"
+                                                   Content="Szín"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="80"
@@ -2554,7 +2554,7 @@
 
                                             <!-- Correction Method -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Method"
+                                                   Content="Módszer"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="80"
@@ -2614,7 +2614,7 @@
 
                                                             <!-- Reds Cyan -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Cyan"
+                                                                   Content="Cián"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -2690,7 +2690,7 @@
 
                                                             <!-- Reds Yellow -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Yellow"
+                                                                   Content="Sárga"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -2755,7 +2755,7 @@
 
                                                             <!-- Yellows Cyan -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Cyan"
+                                                                   Content="Cián"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -2828,7 +2828,7 @@
 
                                                             <!-- Yellows Yellow -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Yellow"
+                                                                   Content="Sárga"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -2892,7 +2892,7 @@
 
                                                             <!-- Greens Cyan -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Cyan"
+                                                                   Content="Cián"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -2965,7 +2965,7 @@
 
                                                             <!-- Greens Yellow -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Yellow"
+                                                                   Content="Sárga"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3029,7 +3029,7 @@
 
                                                             <!-- Cyans Cyan -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Cyan"
+                                                                   Content="Cián"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3102,7 +3102,7 @@
 
                                                             <!-- Cyans Yellow -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Yellow"
+                                                                   Content="Sárga"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3166,7 +3166,7 @@
 
                                                             <!-- Blues Cyan -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Cyan"
+                                                                   Content="Cián"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3239,7 +3239,7 @@
 
                                                             <!-- Blues Yellow -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Yellow"
+                                                                   Content="Sárga"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3303,7 +3303,7 @@
 
                                                             <!-- Magentas Cyan -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Cyan"
+                                                                   Content="Cián"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3376,7 +3376,7 @@
 
                                                             <!-- Magentas Yellow -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Yellow"
+                                                                   Content="Sárga"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3440,7 +3440,7 @@
 
                                                             <!-- Whites Cyan -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Cyan"
+                                                                   Content="Cián"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3513,7 +3513,7 @@
 
                                                             <!-- Whites Yellow -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Yellow"
+                                                                   Content="Sárga"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3577,7 +3577,7 @@
 
                                                             <!-- Neutrals Cyan -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Cyan"
+                                                                   Content="Cián"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3650,7 +3650,7 @@
 
                                                             <!-- Neutrals Yellow -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Yellow"
+                                                                   Content="Sárga"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3714,7 +3714,7 @@
 
                                                             <!-- Blacks Cyan -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Cyan"
+                                                                   Content="Cián"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3787,7 +3787,7 @@
 
                                                             <!-- Blacks Yellow -->
                                                             <Label Style="{DynamicResource LabelStyle}"
-                                                                   Content="Yellow"
+                                                                   Content="Sárga"
                                                                    HorizontalAlignment="Left"
                                                                    Margin="20,0,0,0"
                                                                    VerticalAlignment="Top"
@@ -3889,7 +3889,7 @@
 
                                             <!-- Size -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Size"
+                                                   Content="Méret"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="75"
@@ -3913,7 +3913,7 @@
 
                                             <!-- Width -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Width"
+                                                   Content="Szélesség"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="75"
@@ -3939,7 +3939,7 @@
 
                                             <!-- Height -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Height"
+                                                   Content="Magasság"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="75"
@@ -3965,7 +3965,7 @@
 
                                             <!-- Screen Format -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Format"
+                                                   Content="Formátum"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="86"
@@ -3998,7 +3998,7 @@
 
                                             <!-- Aspect Ratio -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Aspect Ratio"
+                                                   Content="Képarány"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="80"
@@ -4028,7 +4028,7 @@
 
                                             <!-- Scaling -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Scaling"
+                                                   Content="Méretezés"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="75"
@@ -4062,7 +4062,7 @@
 
                                             <!-- Crop -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Crop"
+                                                   Content="Vágás"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="75"
@@ -4169,7 +4169,7 @@
                                 </Grid.RowDefinitions>
 
                                 <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Audio Codec"
+                                   Content="Hangkodek"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="85"
@@ -4195,7 +4195,7 @@
 
                                 <!-- Stream Track -->
                                 <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Stream"
+                                   Content="Streamelés"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="65"
@@ -4226,7 +4226,7 @@
 
                                 <!-- Channel -->
                                 <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Channel"
+                                   Content="Csatorna"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="75"
@@ -4272,7 +4272,7 @@
 
                                 <!-- Audio Quality -->
                                 <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Quality"
+                                       Content="Minőség"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="76"
@@ -4310,7 +4310,7 @@
 
                                 <!-- Bit Rate -->
                                 <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Bit Rate"
+                                       Content="Bitrátá"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="85"
@@ -4346,7 +4346,7 @@
                                               IsChecked="{Binding Audio_VBR_IsChecked, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                               IsEnabled="{Binding Audio_VBR_IsEnabled, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                               Style="{DynamicResource ToggleButtonSmall}"
-                                              Content="VBR"
+                                              Content="Változó bitrátájú"
                                               HorizontalAlignment="Left"
                                               Margin="75,2,0,0"
                                               VerticalAlignment="Top"
@@ -4363,7 +4363,7 @@
 
                                 <!-- Compression Level -->
                                 <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Compression"
+                                       Content="Tömörítés"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="85"
@@ -4392,7 +4392,7 @@
 
                                 <!-- Sample Rate -->
                                 <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Sample Rate"
+                                       Content="Mintavételezési frekvencia"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="85"
@@ -4432,7 +4432,7 @@
                                 <!-- Bit Depth -->
                                 <Label x:Name="labelBitdepth"
                                        Style="{DynamicResource LabelStyle}"
-                                       Content="Bit Depth"
+                                       Content="Bitmélység"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="85"
@@ -4491,7 +4491,7 @@
 
                                 <!-- Volume -->
                                 <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Volume"
+                                       Content="Hangerő"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="75"
@@ -4573,7 +4573,7 @@
 
                                 <!-- Audio Limiter Toggle -->
                                 <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Hard Limiter"
+                                       Content="Kemény korlátozó"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="85"
@@ -4642,7 +4642,7 @@
 
                                 <!-- Mux -->
                                 <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Mux"
+                                       Content="Multiplexelés"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="95"
@@ -4799,7 +4799,7 @@
 
                                 <!-- Title Metadata-->
                                 <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Title"
+                                       Content="Cím"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="85"
@@ -4829,7 +4829,7 @@
 
                                 <!-- Language Metadata -->
                                 <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Language"
+                                       Content="Nyelv"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="85"
@@ -4871,7 +4871,7 @@
 
                                 <!-- Delay -->
                                 <!--<Label Style="{DynamicResource LabelStyle}"
-                                       Content="Delay"
+                                       Content="Késleltetés"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="85"
@@ -4942,7 +4942,7 @@
 
                             <!-- Subtitle Codec -->
                             <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Subtitle Codec"
+                                   Content="Felirat kodek"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="85"
@@ -4969,7 +4969,7 @@
 
                             <!-- Subtitles -->
                             <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Stream"
+                                   Content="Streamelés"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="54"
@@ -5001,7 +5001,7 @@
 
                             <!-- Mux -->
                             <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Mux"
+                                   Content="Multiplexelés"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="95"
@@ -5157,7 +5157,7 @@
 
                             <!-- Title Metadata-->
                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Title"
+                                       Content="Cím"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="85"
@@ -5187,7 +5187,7 @@
 
                             <!-- Language Metadata -->
                             <Label Style="{DynamicResource LabelStyle}"
-                                   Content="Language"
+                                   Content="Nyelv"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    Width="85"
@@ -5229,7 +5229,7 @@
 
                             <!-- Delay -->
                             <!--<Label Style="{DynamicResource LabelStyle}"
-                                       Content="Delay"
+                                       Content="Késleltetés"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="85"
@@ -5334,7 +5334,7 @@
 
                                                 <!-- Display -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Display"
+                                                       Content="Megjelenítés"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="95"
@@ -5345,7 +5345,7 @@
 
                                                 <!-- Drop Frames -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Drop Frames"
+                                                       Content="Képkockák eldobása"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="85"
@@ -5409,7 +5409,7 @@
 
                                                 <!-- Fix -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Fix"
+                                                       Content="Javítás"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="85"
@@ -5420,7 +5420,7 @@
 
                                                 <!-- Deband -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Deband"
+                                                       Content="Sávosítás eltávolítása"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="85"
@@ -5446,7 +5446,7 @@
 
                                                 <!-- Deshake -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Deshake"
+                                                       Content="Rázkódáscsökkentés"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="85"
@@ -5472,7 +5472,7 @@
 
                                                 <!-- Deflicker -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Deflicker"
+                                                       Content="Villódzáscsökkentés"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="85"
@@ -5498,7 +5498,7 @@
 
                                                 <!-- Dejudder -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Dejudder"
+                                                       Content="Rángatásmentesítés"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="85"
@@ -5524,7 +5524,7 @@
 
                                                 <!-- Denoise -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Denoise"
+                                                       Content="Zajszűrés"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="90"
@@ -5550,7 +5550,7 @@
 
                                                 <!-- Deinterlace -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Deinterlace"
+                                                       Content="Sorrendezés"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="85"
@@ -5575,7 +5575,7 @@
 
                                                 <!-- Deblock -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Deblock"
+                                                       Content="Zajszűrés"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="85"
@@ -5620,7 +5620,7 @@
 
                                                 <!-- Transpose -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Transpose"
+                                                       Content="Áttranszponálás"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="95"
@@ -5631,7 +5631,7 @@
 
                                                 <!-- Flip -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Flip"
+                                                       Content="Átfordítás"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="85"
@@ -5657,7 +5657,7 @@
 
                                                 <!-- Rotate -->
                                                 <Label Style="{DynamicResource LabelStyle}"
-                                                       Content="Rotate"
+                                                       Content="Elforgat"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Width="85"
@@ -5726,7 +5726,7 @@
 
                                             <!-- Fix Group -->
                                             <!--<Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Fix" 
+                                                   Content="Javítás" 
                                                    HorizontalAlignment="Left" 
                                                    VerticalAlignment="Top" 
                                                    Width="85" 
@@ -5737,7 +5737,7 @@
 
                                             <!-- Remove Click -->
                                             <!--<Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Remove Click" 
+                                                   Content="Kattintás eltávolítása" 
                                                    HorizontalAlignment="Left" 
                                                    VerticalAlignment="Top" 
                                                    Width="85" 
@@ -5773,7 +5773,7 @@
 
                                             <!-- EQ Group -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="EQ"
+                                                   Content="Egyenlítő"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="85"
@@ -5784,7 +5784,7 @@
 
                                             <!-- Lowpass -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Lowpass"
+                                                   Content="Aluláteresztő"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="85"
@@ -5809,7 +5809,7 @@
 
                                             <!-- Highpass -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Highpass"
+                                                   Content="Magasvágás"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="85"
@@ -5834,7 +5834,7 @@
 
                                             <!-- Dynamics Group -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Dynamics"
+                                                   Content="Dinamikák"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="85"
@@ -5845,7 +5845,7 @@
 
                                             <!-- Contrast -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Contrast"
+                                                   Content="Kontraszt"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="85"
@@ -5886,7 +5886,7 @@
 
                                             <!-- Extra Stereo -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Extra Stereo"
+                                                   Content="Extra sztereó"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="85"
@@ -5927,7 +5927,7 @@
 
                                             <!-- Headphones -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Headphones"
+                                                   Content="Fülhallgató"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="85"
@@ -5952,7 +5952,7 @@
 
                                             <!-- Timing Group -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Timing"
+                                                   Content="Szinhronizálás"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="85"
@@ -5963,7 +5963,7 @@
 
                                             <!-- Tempo -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Tempo"
+                                                   Content="Tempó"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="85"
@@ -6085,7 +6085,7 @@
 
                                             <!-- Config -->
                                             <!--<Label Style="{DynamicResource LabelStyle}"
-                                       Content="Config"
+                                       Content="Beállítások"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="95"
@@ -6096,7 +6096,7 @@
 
                                             <!-- Location -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Location"
+                                       Content="Hely"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -6150,7 +6150,7 @@
 
                                             <!-- Custom Presets Path TextBox -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Presets"
+                                       Content="Előre beállítások"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -6386,7 +6386,7 @@
 
                                             <!-- youtube-dl Path TextBox -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="youtube-dl"
+                                       Content="Youtube-letöltő"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -6467,7 +6467,7 @@
 
                                             <!-- App -->
                                             <!--<Label Style="{DynamicResource LabelStyle}"
-                                       Content="App"
+                                       Content="Alkalmazás"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="54"
@@ -6479,7 +6479,7 @@
                                             <!-- Theme -->
                                             <Label x:Name="labelTheme"
                                        Style="{DynamicResource LabelStyle}"
-                                       Content="Theme"
+                                       Content="Téma"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -6507,7 +6507,7 @@
 
                                             <!-- Check for Updates -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Updates"
+                                       Content="Frissítések"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -6541,7 +6541,7 @@
                                             </ToggleButton>
 
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Auto-Check"
+                                       Content="Automatikus ellenőrzés"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -6573,7 +6573,7 @@
 
                                             <!-- Settings Default -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Settings"
+                                       Content="Beállítások"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -6635,7 +6635,7 @@
 
                                             <!-- Input -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Input"
+                                                   Content="Bemeneti"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Width="54"
@@ -6646,7 +6646,7 @@
 
                                             <!-- Input Filename Tokens -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                                   Content="Tokens"
+                                                   Content="Tokenek"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Height="26"
@@ -6739,7 +6739,7 @@
 
                                             <!-- Output -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Output"
+                                       Content="Kimeneti fájl"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="54"
@@ -6750,7 +6750,7 @@
 
                                             <!-- Naming Tokens -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Tokens"
+                                       Content="Tokenek"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -6902,7 +6902,7 @@
 
                                             <!-- Spacing -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Spacing"
+                                       Content="Távolság"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -6952,7 +6952,7 @@
 
                                             <!-- Overwrite -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Overwrite"
+                                       Content="Felülír"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -7039,7 +7039,7 @@
 
                                             <!-- Process -->
                                             <!--<Label Style="{DynamicResource LabelStyle}"
-                                       Content="Process"
+                                       Content="Feldolgozás"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Width="95"
@@ -7050,7 +7050,7 @@
 
                                             <!-- Shell -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Shell"
+                                       Content="Héj"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -7101,7 +7101,7 @@
 
                                             <!-- Shell Title -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Title"
+                                       Content="Cím"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -7152,7 +7152,7 @@
 
                                             <!-- Priority -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Priority"
+                                       Content="Prioritás"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -7202,7 +7202,7 @@
 
                                             <!-- Threads -->
                                             <Label Style="{DynamicResource LabelStyle}"
-                                       Content="Threads"
+                                       Content="Szálak"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
@@ -7255,7 +7255,7 @@
                                             <!-- Log Path -->
                                             <Label x:Name="labelLogConfig"
                                        Style="{DynamicResource LabelStyle}"
-                                       Content="Log"
+                                       Content="Napló"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Top"
                                        Height="26"
